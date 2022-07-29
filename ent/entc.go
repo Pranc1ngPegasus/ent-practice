@@ -14,12 +14,12 @@ import (
 )
 
 func main() {
+	spec := new(ogen.Spec)
 	oas, err := entoas.NewExtension(entoas.Spec(spec))
 	if err != nil {
 		log.Fatalf("creating entoas extension: %v", err)
 	}
 
-	spec := new(ogen.Spec)
 	ogent, err := ogent.NewExtension(spec)
 	if err != nil {
 		log.Fatalf("creating ogent extension: %v", err)

@@ -136,11 +136,11 @@
             "name": "id",
             "in": "path",
             "description": "ID of the Account",
+            "required": true,
             "schema": {
               "type": "string",
               "format": "uuid"
-            },
-            "required": true
+            }
           }
         ],
         "responses": {
@@ -180,11 +180,11 @@
             "name": "id",
             "in": "path",
             "description": "ID of the Account",
+            "required": true,
             "schema": {
               "type": "string",
               "format": "uuid"
-            },
-            "required": true
+            }
           }
         ],
         "responses": {
@@ -217,11 +217,11 @@
             "name": "id",
             "in": "path",
             "description": "ID of the Account",
+            "required": true,
             "schema": {
               "type": "string",
               "format": "uuid"
-            },
-            "required": true
+            }
           }
         ],
         "requestBody": {
@@ -404,11 +404,11 @@
             "name": "id",
             "in": "path",
             "description": "ID of the Organization",
+            "required": true,
             "schema": {
               "type": "string",
               "format": "uuid"
-            },
-            "required": true
+            }
           }
         ],
         "responses": {
@@ -448,11 +448,11 @@
             "name": "id",
             "in": "path",
             "description": "ID of the Organization",
+            "required": true,
             "schema": {
               "type": "string",
               "format": "uuid"
-            },
-            "required": true
+            }
           }
         ],
         "responses": {
@@ -485,11 +485,11 @@
             "name": "id",
             "in": "path",
             "description": "ID of the Organization",
+            "required": true,
             "schema": {
               "type": "string",
               "format": "uuid"
-            },
-            "required": true
+            }
           }
         ],
         "requestBody": {
