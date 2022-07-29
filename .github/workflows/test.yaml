@@ -1,0 +1,29 @@
+name: Test
+on:
+  pull_request
+
+jobs:
+  lint:
+    name: Go Lint
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        go-version: [1.18]
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Use Go ${{ matrix.go-version }}
+        uses: actions/setup-go@v3
+        with:
+          go-version: ${{ matrix.go-version }}
+
+      - name: golangci-lint
+        uses: reviewdog/action-golangci-lint@v2
+        with:
+          filter_mode: nofilter
+          reporter: github-pr-review
