@@ -24,6 +24,9 @@ jobs:
     - name: bundle
       run: npm run build
 
+    - name: add schema-viz.html
+      run: cp ./ent/schema-viz.html ./docs/schema-viz.html
+
     - name: add nojekyll
       run: touch ./docs/.nojekyll
 
