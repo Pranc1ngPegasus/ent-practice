@@ -1,0 +1,24 @@
+{
+  "name": "ent-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "redoc-cli test ent/openapi.json",
+    "build": "redoc-cli build ent/openapi.json -o docs/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pranc1ngPegasus/ent-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pranc1ngPegasus/ent-practice/issues"
+  },
+  "homepage": "https://github.com/Pranc1ngPegasus/ent-practice#readme",
+  "dependencies": {
+    "redoc-cli": "^0.13.17"
+  }
+}
