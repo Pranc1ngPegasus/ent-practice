@@ -10,6 +10,7 @@ import (
 	"entgo.io/contrib/entoas"
 	"entgo.io/ent/entc"
 	"entgo.io/ent/entc/gen"
+	"github.com/hedwigz/entviz"
 	"github.com/ogen-go/ogen"
 )
 
@@ -31,6 +32,7 @@ func main() {
 		entc.Extensions(
 			ogent,
 			oas,
+			entviz.Extension{},
 		),
 	); err != nil {
 		log.Fatal("running ent codegen:", err)

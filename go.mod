@@ -20,8 +20,6 @@ require (
 
 require (
 	ariga.io/atlas v0.5.0 // indirect
-	ariga.io/ogent v0.0.0-20220429114145-44afadf72357 // indirect
-	entgo.io/contrib v0.3.0 // indirect
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
 	github.com/go-logr/logr v1.2.3 // indirect
