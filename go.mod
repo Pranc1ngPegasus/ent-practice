@@ -2,7 +2,10 @@ module github.com/Pranc1ngPegasus/ent-practice
 
 go 1.18
 
-require entgo.io/ent v0.11.1
+require (
+	entgo.io/ent v0.11.1
+	github.com/google/uuid v1.3.0
+)
 
 require (
 	ariga.io/atlas v0.5.0 // indirect
@@ -10,7 +13,6 @@ require (
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
 	github.com/go-openapi/inflect v0.19.0 // indirect
 	github.com/google/go-cmp v0.5.6 // indirect
-	github.com/google/uuid v1.3.0 // indirect
 	github.com/hashicorp/hcl/v2 v2.10.0 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/mattn/go-runewidth v0.0.9 // indirect
