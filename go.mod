@@ -5,12 +5,12 @@ go 1.19
 require (
 	entgo.io/ent v0.11.1
 	github.com/go-faster/errors v0.6.1
-	github.com/go-faster/jx v0.38.1
+	github.com/go-faster/jx v0.39.0
 	github.com/google/uuid v1.3.0
 	github.com/google/wire v0.5.0
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/mattn/go-sqlite3 v1.14.14
-	github.com/ogen-go/ogen v0.46.0
+	github.com/ogen-go/ogen v0.46.2
 	go.opentelemetry.io/otel v1.9.0
 	go.opentelemetry.io/otel/metric v0.31.0
 	go.opentelemetry.io/otel/trace v1.9.0
