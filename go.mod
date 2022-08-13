@@ -3,7 +3,7 @@ module github.com/Pranc1ngPegasus/ent-practice
 go 1.19
 
 require (
-	entgo.io/ent v0.11.1
+	entgo.io/ent v0.11.2
 	github.com/go-faster/errors v0.6.1
 	github.com/go-faster/jx v0.39.0
 	github.com/google/uuid v1.3.0
@@ -19,7 +19,7 @@ require (
 )
 
 require (
-	ariga.io/atlas v0.5.0 // indirect
+	ariga.io/atlas v0.5.1-0.20220717122844-8593d7eb1a8e // indirect
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
 	github.com/go-logr/logr v1.2.3 // indirect
@@ -43,5 +43,5 @@ require (
 	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
 	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
 	golang.org/x/text v0.3.7 // indirect
-	golang.org/x/tools v0.1.12 // indirect
+	golang.org/x/tools v0.1.13-0.20220804200503-81c7dc4e4efa // indirect
 )
