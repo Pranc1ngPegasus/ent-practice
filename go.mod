@@ -5,7 +5,7 @@ go 1.19
 require (
 	entgo.io/ent v0.11.1
 	github.com/go-faster/errors v0.6.1
-	github.com/go-faster/jx v0.38.1
+	github.com/go-faster/jx v0.39.0
 	github.com/google/uuid v1.3.0
 	github.com/google/wire v0.5.0
 	github.com/kelseyhightower/envconfig v1.4.0
